@@ -33,7 +33,7 @@ data04 = pd.DataFrame({'food': ['bacon', 'pulled pork', 'bacon',
                        'ounces': [2, 1, np.nan, np.nan, np.nan, np.nan, 3, 5, 6]})
 Series04=data04['ounces'].copy()
 print(pd.isnull(Series04[2]))
-d
+
 print(pd.isnull(Series04))
 Series04_inserted = insert_Series(Series04)
 print(Series04_inserted)
